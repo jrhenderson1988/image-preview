@@ -1,26 +1,25 @@
 {
-  "name": "image-preview",
+  "name": "jquery-image-preview",
   "version": "0.1.0",
   "description": "A very quick and simple jQuery plugin to replace a browser default file upload control, complete with an image preview",
-  "main": "dist/image-preview.min.js",
+  "main": "dist/jquery-image-preview.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jrhenderson1988/image-preview.git"
+    "url": "git+https://github.com/jrhenderson1988/jquery-image-preview.git"
   },
   "keywords": [
     "image",
     "preview",
-    "image-preview",
     "jquery",
     "plugin"
   ],
   "author": "Jonathon Henderson",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jrhenderson1988/image-preview/issues"
+    "url": "https://github.com/jrhenderson1988/jquery-image-preview/issues"
   },
-  "homepage": "https://github.com/jrhenderson1988/image-preview#readme"
+  "homepage": "https://github.com/jrhenderson1988/jquery-image-preview#readme"
 }
