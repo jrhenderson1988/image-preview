@@ -1,6 +1,6 @@
 {
   "name": "jquery-image-preview",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A very quick and simple jQuery plugin to replace a browser default file upload control, complete with an image preview",
   "main": "dist/jquery-image-preview.min.js",
   "scripts": {
