@@ -15,6 +15,11 @@
         previewSelector: '.image-preview__preview',
         removeButtonSelector: '.image-preview__remove-button',
         triggerButtonSelector: '.image-preview__trigger-button',
+        previewCss: {
+            'background-size': 'cover',
+            'background-repeat': 'no-repeat',
+            'background-position': 'center center'
+        }
     };
 
     function ImagePreview(element, options) {
@@ -181,12 +186,10 @@
          */
         updatePreview: function(src) {
             if (this.$preview) {
-                this.$preview.css({
-                    'background-image': src ? 'url(\'' + src + '\')' : (this.defaultImage ? 'url(\'' + this.defaultImage + '\')' : 'none'),
-                    'background-size': 'cover',
-                    'background-repeat': 'no-repeat',
-                    'background-position': 'center center'
-                });
+                var previewCss = this.settings.previewCss;
+                previewCss['background-image'] = src ? 'url(\'' + src + '\')' : (this.defaultImage ? 'url(\'' + this.defaultImage + '\')' : 'none');
+
+                this.$preview.css(previewCss);
             }
         },
         /**
